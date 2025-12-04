@@ -3,7 +3,7 @@ import Container from './container';
 function Hero() {
   return (
     <Container>
-      <section className="bg-primary px-12 py-16 rounded-3xl mt-16">
+      <section className="bg-primary px-12 py-16 rounded-3xl mt-32">
         <div className="w-4/5">
           <span className="px-4 py-2 text-sm text-primary bg-white rounded-full font-medium">
             Our Divisions

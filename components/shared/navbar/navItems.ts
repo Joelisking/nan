@@ -14,8 +14,4 @@ export const navItems: NavItem[] = [
     text: 'Divisions',
     url: '/divisions',
   },
-  {
-    text: 'Careers',
-    url: '/careers',
-  },
 ];

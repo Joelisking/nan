@@ -3,7 +3,7 @@ import Container from '../shared/container';
 function AboutHero() {
   return (
     <Container>
-      <section className="mt-16">
+      <section className="mt-32">
         <div
           style={{
             backgroundImage: 'url("/about/hero.png")',

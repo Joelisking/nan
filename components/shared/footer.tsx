@@ -10,7 +10,7 @@ function Footer() {
     <div>
       <ContactSection />
 
-      <footer className="bg-primary text-white py-16 mt-12 sm:mt-16 md:mt-32">
+      <footer className="bg-primary text-white py-16 mt-12 sm:mt-16">
         <Container>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
             <div>
