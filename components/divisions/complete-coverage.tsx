@@ -37,7 +37,7 @@ function CompleteCoverage() {
             <div
               key={index}
               className="bg-primary text-white rounded-3xl p-10">
-              <h3 className="text-3xl font-bold mb-4">
+              <h3 className="text-2xl font-bold mb-4">
                 {benefit.title}
               </h3>
               <p className="text-lg leading-relaxed">

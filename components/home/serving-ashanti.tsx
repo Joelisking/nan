@@ -6,7 +6,7 @@ function ServingAshanti() {
     <section className="mt-40">
       <div className="flex gap-6">
         <div className="w-1/2 bg-card rounded-xl p-12 flex flex-col justify-center">
-          <h2 className="text-5xl font-extrabold leading-tight">
+          <h2 className="text-5xl font-bold leading-tight">
             Serving Ashanti Region and Beyond
           </h2>
           <span className="text-2xl font-bold italic text-primary mt-6">

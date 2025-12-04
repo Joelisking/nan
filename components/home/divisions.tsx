@@ -4,7 +4,7 @@ import Link from 'next/link';
 function Divisions() {
   return (
     <section className="mt-40">
-      <h2 className="text-6xl font-extrabold w-2/3 leading-tight">
+      <h2 className="text-5xl font-bold w-1/2 leading-tight">
         Two Divisions, One Commitment to Excellence
       </h2>
 
