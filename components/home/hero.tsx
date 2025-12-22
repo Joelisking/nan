@@ -1,5 +1,6 @@
 import { ArrowRight } from 'lucide-react';
 import { Button } from '../ui/button';
+import Link from 'next/link';
 
 function Hero() {
   return (
@@ -21,9 +22,11 @@ function Hero() {
             retailers, restaurants, hotels, and institutions across
             Ghana.
           </p>
-          <Button className="mt-8 text-lg px-6 py-6">
-            Explore Our Products <ArrowRight />
-          </Button>
+          <Link href={'/divisions'}>
+            <Button className="mt-8 text-lg px-6 py-6">
+              Explore Our Products <ArrowRight />
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
