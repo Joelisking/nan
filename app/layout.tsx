@@ -3,6 +3,7 @@ import { Manrope } from 'next/font/google';
 import './globals.css';
 import Footer from '@/components/shared/footer';
 import Navbar from '@/components/shared/navbar';
+import { Toaster } from 'sonner';
 
 const manrope = Manrope({
   variable: '--font-manrope',
@@ -21,9 +22,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${manrope.variable} antialiased`}>
-      <Navbar />
-      <body>{children}</body>
-      <Footer />
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
+        <Toaster position="top-right" richColors />
+      </body>
     </html>
   );
 }

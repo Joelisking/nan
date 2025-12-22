@@ -1,5 +1,5 @@
 import AboutStats from '@/components/about/about-stats';
-import CorporateValues from '@/components/about/core-values-section';
+import CoreValues from '@/components/about/core-values-section';
 import CtaBanner from '@/components/about/cta-banner';
 import AboutHero from '@/components/about/hero';
 import MissionVisionSection from '@/components/about/mission-vision-section';
@@ -12,7 +12,7 @@ function AboutPAge() {
       <AboutHero />
       <AboutStats />
       <MissionVisionSection />
-      <CorporateValues />
+      <CoreValues />
       <SetsApart />
       <CtaBanner />
     </main>

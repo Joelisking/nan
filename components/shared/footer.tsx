@@ -22,9 +22,9 @@ function Footer() {
                 className="mb-4"
               />
               <p className="text-white/80 leading-relaxed">
-                Ghana's leading FMCG distributor, serving businesses
-                with quality products and reliable service for over 30
-                years.
+                Ghana&apos;s leading FMCG distributor, serving
+                businesses with quality products and reliable service
+                for over 30 years.
               </p>
             </div>
 

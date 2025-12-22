@@ -16,12 +16,13 @@ function Unilever() {
   return (
     <Container>
       <section className="flex gap-8 mt-24 mb-24">
-        <div className="w-1/2 rounded-3xl overflow-hidden">
+        <div className="w-1/2 rounded-3xl overflow-hidden relative">
           <Image
             src={unilever}
             alt="Unilever Distribution Division Products"
             className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0 bg-black/60 pointer-events-none" />
         </div>
 
         <div className="w-1/2 bg-card rounded-3xl p-10 flex flex-col gap-6">
@@ -35,7 +36,7 @@ function Unilever() {
             Unilever Distribution Division
           </h3>
           <p className="text-lg text-gray-700 leading-relaxed">
-            As Ghana's leading Unilever distributor, we bring
+            As Ghana&apos;s leading Unilever distributor, we bring
             world-class brands in personal care, home care, and food
             products to markets across the nation.
           </p>

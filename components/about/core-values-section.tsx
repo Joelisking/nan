@@ -1,7 +1,7 @@
 import Container from '../shared/container';
 import { Icon, LucideIconProps } from '../ui/icon';
 
-const CorporateValues = () => {
+const CoreValues = () => {
   const values: Array<{
     title: string;
     description: string;
@@ -46,7 +46,7 @@ const CorporateValues = () => {
   ];
 
   return (
-    <section className="py-24 bg-primary relative mt-32">
+    <section className="py-24 bg-linear-to-r from-secondary to-primary relative mt-32">
       <Container className="relative z-10">
         <div className="mb-12">
           <h2 className="text-5xl font-bold text-white mb-2">
@@ -99,4 +99,4 @@ const CorporateValues = () => {
   );
 };
 
-export default CorporateValues;
+export default CoreValues;

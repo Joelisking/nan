@@ -30,7 +30,7 @@ const MissionVisionSection = () => (
         <div
           className="flex-1 min-h-[180px] md:min-h-0 relative rounded-3xl overflow-hidden flex items-center text-white p-4 sm:p-8 md:p-12"
           style={{
-            backgroundImage: 'url(/about/mission.png)',
+            backgroundImage: 'url(/about/mission2.png)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}>
@@ -51,12 +51,12 @@ const MissionVisionSection = () => (
             </div>
           </div>
         </div>
-        <div className="bg-gray-50 mt-2 p-6 md:p-9 rounded-3xl">
+        <div className="bg-card mt-2 p-6 md:p-9 rounded-3xl">
           <h3 className="text-lg md:text-2xl font-bold text-primary">
             Our Vision
           </h3>
           <p className="font-light mt-2 text-primary md:text-base">
-            To be Ghana's most trusted and innovative FMCG
+            To be Ghana&apos;s most trusted and innovative FMCG
             distributor, setting the standard for service delivery and
             empowering businesses through consistent supply of
             everyday essentials.

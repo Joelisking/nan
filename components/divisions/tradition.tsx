@@ -108,12 +108,13 @@ function Tradition() {
           </div>
         </div>
 
-        <div className="w-1/2 rounded-3xl overflow-hidden">
+        <div className="w-1/2 rounded-3xl overflow-hidden relative">
           <Image
             src={tradition}
             alt="NAN Tradition Division Image"
             className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0 bg-black/60 pointer-events-none"></div>
         </div>
       </section>
     </Container>
