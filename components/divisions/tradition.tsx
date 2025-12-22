@@ -6,7 +6,9 @@ import Container from '../shared/container';
 function Tradition() {
   return (
     <Container>
-      <section className="flex gap-8 mt-24">
+      <section
+        className="flex gap-8 mt-24 scroll-mt-24"
+        id="tradition">
         <div className="w-1/2 bg-card rounded-3xl p-10 flex flex-col gap-6">
           <div className="inline-flex">
             <div className="bg-[#EFF6FF] p-3 rounded-xl">

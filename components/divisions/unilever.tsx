@@ -15,7 +15,9 @@ function Unilever() {
 
   return (
     <Container>
-      <section className="flex gap-8 mt-24 mb-24">
+      <section
+        className="flex gap-8 mt-24 mb-24 scroll-mt-24"
+        id="unilever">
         <div className="w-1/2 rounded-3xl overflow-hidden relative">
           <Image
             src={unilever}

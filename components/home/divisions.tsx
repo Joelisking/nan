@@ -23,7 +23,7 @@ function Divisions() {
 
         <div className="w-2/3 flex gap-6">
           <Link
-            href="/divisions"
+            href="/divisions#tradition"
             style={{
               backgroundImage: 'url("/home/tradition.png")',
               backgroundRepeat: 'no-repeat',
@@ -47,7 +47,7 @@ function Divisions() {
           </Link>
 
           <Link
-            href="/divisions"
+            href="/divisions#unilever"
             style={{
               backgroundImage: 'url("/home/unilever.png")',
               backgroundRepeat: 'no-repeat',
