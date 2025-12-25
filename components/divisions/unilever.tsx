@@ -24,7 +24,7 @@ function Unilever() {
             alt="Unilever Distribution Division Products"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/60 pointer-events-none" />
+          <div className="absolute inset-0 bg-black/10 pointer-events-none" />
         </div>
 
         <div className="w-1/2 bg-card rounded-3xl p-10 flex flex-col gap-6">

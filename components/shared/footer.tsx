@@ -12,7 +12,7 @@ function Footer() {
 
       <footer className="bg-primary text-white py-16 mt-12 sm:mt-16">
         <Container>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
             <div>
               <Image
                 src="/logo.png"
@@ -60,13 +60,48 @@ function Footer() {
                 Our Divisions
               </h3>
               <ul className="space-y-2">
-                <li className="text-white/80">
-                  NAN Tradition Division
+                <li>
+                  <Link
+                    href="/divisions#tradition"
+                    className="text-white/80 hover:text-white transition-colors">
+                    NAN Tradition Division
+                  </Link>
                 </li>
-                <li className="text-white/80">
-                  Unilever Distribution Division
+                <li>
+                  <Link
+                    href="/divisions#unilever"
+                    className="text-white/80 hover:text-white transition-colors">
+                    Unilever Distribution Division
+                  </Link>
                 </li>
               </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold mb-4">Contact Info</h3>
+              <div className="space-y-3">
+                <div>
+                  <p className="text-white/80 text-sm">
+                    <strong>Phone:</strong>
+                  </p>
+                  <p className="text-white/80 text-sm">+233 32 202 5389</p>
+                  <p className="text-white/80 text-sm">+233 32 203 0909</p>
+                </div>
+                <div>
+                  <p className="text-white/80 text-sm">
+                    <strong>Email:</strong>
+                  </p>
+                  <p className="text-white/80 text-sm">info@nancompany.com</p>
+                </div>
+                <div>
+                  <p className="text-white/80 text-sm">
+                    <strong>Address:</strong>
+                  </p>
+                  <p className="text-white/80 text-sm">
+                    Asokwa Industrial Area, Kumasi, Ashanti Region, Ghana
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
