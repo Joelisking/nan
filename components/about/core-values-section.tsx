@@ -46,49 +46,49 @@ const CoreValues = () => {
   ];
 
   return (
-    <section className="py-24 bg-linear-to-r from-secondary to-primary relative mt-32">
+    <section className="py-16 md:py-20 lg:py-24 bg-linear-to-r from-secondary to-primary relative mt-20 md:mt-28 lg:mt-32">
       <Container className="relative z-10">
-        <div className="mb-12">
-          <h2 className="text-5xl font-bold text-white mb-2">
+        <div className="mb-8 md:mb-12">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-2">
             Our Core Values
           </h2>
-          <div className="w-20 h-1 bg-white mb-6"></div>
-          <p className="text-xl text-white">
+          <div className="w-16 md:w-20 h-1 bg-white mb-4 md:mb-6"></div>
+          <p className="text-base md:text-lg lg:text-xl text-white">
             These are the principles that guide every decision we
             make.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mb-4 md:mb-6">
           {values.slice(0, 3).map((value, index) => (
             <div
               key={index}
-              className="bg-white rounded-3xl p-10 hover:shadow-xl transition-all duration-300">
-              <div className="w-14 h-14 bg-primary rounded-2xl flex items-center justify-center text-white mb-6">
-                <Icon name={value.icon} className="w-7 h-7" />
+              className="bg-white rounded-2xl md:rounded-3xl p-6 md:p-8 lg:p-10 hover:shadow-xl transition-all duration-300">
+              <div className="w-12 h-12 md:w-14 md:h-14 bg-primary rounded-xl md:rounded-2xl flex items-center justify-center text-white mb-4 md:mb-6">
+                <Icon name={value.icon} className="w-6 h-6 md:w-7 md:h-7" />
               </div>
-              <h3 className="text-2xl font-bold text-primary mb-4">
+              <h3 className="text-xl md:text-2xl font-bold text-primary mb-3 md:mb-4">
                 {value.title}
               </h3>
-              <p className="text-gray-700 leading-relaxed text-lg">
+              <p className="text-gray-700 leading-relaxed text-base md:text-lg">
                 {value.description}
               </p>
             </div>
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 max-w-4xl mx-auto">
           {values.slice(3).map((value, index) => (
             <div
               key={index}
-              className="bg-white rounded-3xl p-10 hover:shadow-xl transition-all duration-300">
-              <div className="w-14 h-14 bg-primary rounded-2xl flex items-center justify-center text-white mb-6">
-                <Icon name={value.icon} className="w-7 h-7" />
+              className="bg-white rounded-2xl md:rounded-3xl p-6 md:p-8 lg:p-10 hover:shadow-xl transition-all duration-300">
+              <div className="w-12 h-12 md:w-14 md:h-14 bg-primary rounded-xl md:rounded-2xl flex items-center justify-center text-white mb-4 md:mb-6">
+                <Icon name={value.icon} className="w-6 h-6 md:w-7 md:h-7" />
               </div>
-              <h3 className="text-2xl font-bold text-primary mb-4">
+              <h3 className="text-xl md:text-2xl font-bold text-primary mb-3 md:mb-4">
                 {value.title}
               </h3>
-              <p className="text-gray-700 leading-relaxed text-lg">
+              <p className="text-gray-700 leading-relaxed text-base md:text-lg">
                 {value.description}
               </p>
             </div>

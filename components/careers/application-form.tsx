@@ -127,13 +127,13 @@ function ApplicationForm() {
 
   return (
     <Container>
-      <section className="py-20">
-        <div className="max-w-3xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-5xl font-extrabold text-primary mb-4">
+      <section className="py-12 md:py-16 lg:py-20">
+        <div className="max-w-3xl mx-auto px-4">
+          <div className="text-center mb-8 md:mb-12">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-primary mb-3 md:mb-4">
               Apply Now
             </h2>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-base md:text-lg lg:text-xl text-muted-foreground">
               Take the first step towards an exciting career
             </p>
           </div>
@@ -141,9 +141,9 @@ function ApplicationForm() {
           <Form {...form}>
             <form
               onSubmit={form.handleSubmit(onSubmit)}
-              className="space-y-6">
+              className="space-y-4 md:space-y-6">
               {/* First Name and Last Name */}
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                 <FormField
                   control={form.control}
                   name="firstName"
@@ -309,11 +309,11 @@ function ApplicationForm() {
               />
 
               {/* Submit Button */}
-              <div className="pt-6">
+              <div className="pt-4 md:pt-6">
                 <Button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full h-12 text-lg font-semibold">
+                  className="w-full h-11 md:h-12 text-base md:text-lg font-semibold">
                   {isSubmitting
                     ? 'Submitting Application...'
                     : 'Submit Application'}

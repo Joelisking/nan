@@ -7,26 +7,26 @@ function Tradition() {
   return (
     <Container>
       <section
-        className="flex gap-8 mt-24 scroll-mt-24"
+        className="flex flex-col lg:flex-row gap-6 md:gap-8 mt-16 md:mt-20 lg:mt-24 scroll-mt-24"
         id="tradition">
-        <div className="w-1/2 bg-card rounded-3xl p-10 flex flex-col gap-6">
+        <div className="w-full lg:w-1/2 bg-card rounded-3xl p-6 md:p-8 lg:p-10 flex flex-col gap-4 md:gap-6">
           <div className="inline-flex">
             <div className="bg-[#EFF6FF] p-3 rounded-xl">
               <Icon name="Box" className="text-primary w-6 h-6" />
             </div>
           </div>
 
-          <h3 className="text-5xl font-extrabold leading-tight">
+          <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight">
             NAN Tradition Division
           </h3>
-          <p className="text-lg text-gray-700 leading-relaxed">
+          <p className="text-base md:text-lg text-gray-700 leading-relaxed">
             Specializing in essential food staples and everyday
             consumer goods that form the foundation of Ghanaian
             households and commercial kitchens.
           </p>
 
-          <div className="mt-2">
-            <span className="font-bold text-xl mb-3 block">
+          <div className="mt-1 md:mt-2">
+            <span className="font-bold text-lg md:text-xl mb-2 md:mb-3 block">
               Product Categories
             </span>
             <div className="grid grid-cols-2 gap-y-3 gap-x-4">
@@ -85,11 +85,11 @@ function Tradition() {
             </div>
           </div>
 
-          <div className="mt-2">
-            <span className="font-bold text-xl mb-3 block">
+          <div className="mt-1 md:mt-2">
+            <span className="font-bold text-lg md:text-xl mb-2 md:mb-3 block">
               We Serve
             </span>
-            <ul className="space-y-1 text-gray-700">
+            <ul className="space-y-1 text-sm md:text-base text-gray-700">
               <li className="flex items-start">
                 <span className="mr-2">•</span>
                 <span>Wholesalers & Retailers</span>
@@ -110,7 +110,7 @@ function Tradition() {
           </div>
         </div>
 
-        <div className="w-1/2 rounded-3xl overflow-hidden relative">
+        <div className="w-full lg:w-1/2 rounded-3xl overflow-hidden relative h-[300px] md:h-[400px] lg:h-auto">
           <Image
             src={tradition}
             alt="NAN Tradition Division Image"

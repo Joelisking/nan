@@ -21,18 +21,18 @@ function CompleteCoverage() {
 
   return (
     <Container>
-      <section className="mt-32">
-        <div className="text-center mb-12">
-          <h2 className="text-5xl font-bold mb-4">
+      <section className="mt-20 md:mt-28 lg:mt-32">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4">
             Complete Coverage
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-base md:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto px-4">
             Our two-division structure ensures specialized expertise
             while maintaining consistent service quality
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
           {benefits.map((benefit, index) => {
             const colorClasses = [
               'bg-primary text-white',
@@ -43,11 +43,11 @@ function CompleteCoverage() {
             return (
               <div
                 key={index}
-                className={`${colorClasses[index]} rounded-3xl p-10`}>
-                <h3 className="text-2xl font-bold mb-4">
+                className={`${colorClasses[index]} rounded-2xl md:rounded-3xl p-6 md:p-8 lg:p-10`}>
+                <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">
                   {benefit.title}
                 </h3>
-                <p className="text-lg leading-relaxed">
+                <p className="text-base md:text-lg leading-relaxed">
                   {benefit.description}
                 </p>
               </div>
