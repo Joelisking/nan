@@ -17,7 +17,7 @@ function Divisions() {
             retail shelves, to globally trusted Unilever brands found
             in homes across the nation, we deliver it all with the
             same dedication to reliability, quality, and service that
-            has defined us for three decades.
+            have defined us for three decades.
           </p>
         </div>
 

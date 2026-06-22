@@ -9,9 +9,10 @@ function Unilever() {
     'Lux',
     'Vaseline',
     'Close Up',
+    'Geisha',
   ];
-  const homeCare = ['OMO', 'Sunlight', 'Vim', 'Domestos'];
-  const foodBrands = ['Royco', 'Lipton', 'Knorr', 'Blue Band'];
+  const homeCare = ['OMO', 'Sunlight', 'Vim', 'Domestos', 'Key Soap'];
+  const foodBrands = ['Knorr', 'Annapurna Iodised Salt'];
 
   return (
     <Container>
